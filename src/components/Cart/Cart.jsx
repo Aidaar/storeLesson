@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../Button/Button'
 
 
 const Cart = (props) => {
@@ -11,7 +12,7 @@ const Cart = (props) => {
       <div className="block_title">
         <p className="title">
         {title}
-        </p>
+        </p>ca
         <p className="desc">
         {desc}
         </p>
@@ -19,6 +20,7 @@ const Cart = (props) => {
         {price}€
         </p>
       </div>
+      <Button titleBtn="buy"/>
     </div>
   )
 }
